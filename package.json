@@ -1,0 +1,29 @@
+{
+  "name": "create-bun-init",
+  "description": "Create a great starter template for bun",
+  "version": "1.0.2",
+  "type": "module",
+  "main": "dist/cli.js",
+  "bin": "dist/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lassejlv/create-bun-init.git"
+  },
+  "scripts": {
+    "dev": "bun cli.ts",
+    "build": "bun build --minify --target=bun cli.ts --outdir dist",
+    "start": "bun ."
+  },
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/mime": "^3.0.4",
+    "@types/node": "^20.14.8",
+    "inquirer": "^9.2.23",
+    "ora": "^8.0.1",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.12"
+  }
+}
