@@ -1,7 +1,7 @@
 {
   "name": "create-bun-init",
   "description": "Create a great starter template for bun",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "main": "dist/cli.js",
   "bin": "dist/cli.js",
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "dev": "bun cli.ts",
-    "build": "bun build --minify --target=bun cli.ts --outdir dist",
+    "build": "bun build --minify --target=node cli.ts --outdir dist",
     "start": "bun ."
   },
   "dependencies": {
